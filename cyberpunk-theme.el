@@ -251,15 +251,15 @@
    `(window-number-face ((,class (:background ,cyberpunk-gray-6 :foreground ,cyberpunk-blue-5))))
 
    ;; company-mode
-   `(company-tooltip ((,class (:background ,cyberpunk-gray-2 :foreground ,cyberpunk-yellow))))
-   `(company-tooltip-common ((,class (:inherit company-tooltip :foreground ,cyberpunk-blue))))
-   `(company-tooltip-common-selection ((,class (:inherit company-tooltip-selection :foreground ,cyberpunk-blue))))
-   `(company-tooltip-selection ((,class (:foreground ,cyberpunk-black :background ,cyberpunk-pink-1))))
-   `(company-tooltip-annotation ((,class (:inherit company-tooltip :foreground ,cyberpunk-black-3))))
+   `(company-tooltip ((,class (:background ,cyberpunk-black-2 :foreground ,cyberpunk-yellow))))
+   `(company-tooltip-common ((,class (:inherit company-tooltip :foreground ,cyberpunk-blue-1))))
+   `(company-tooltip-common-selection ((,class (:inherit company-tooltip-selection :foreground ,cyberpunk-blue-1))))
+   `(company-tooltip-selection ((,class (:foreground ,cyberpunk-white-2 :background ,cyberpunk-bg-05))))
+   `(company-tooltip-annotation ((,class (:inherit company-tooltip :foreground ,cyberpunk-white-2 :background ,cyberpunk-black-2))))
    `(company-scrollbar-fg ((,class (:background ,cyberpunk-black-3))))
    `(company-scrollbar-bg ((,class (:background ,cyberpunk-gray-5))))
-   `(company-preview ((,class (:foreground ,cyberpunk-gray :background ,cyberpunk-pink-1))))
-   `(company-preview-common ((,class (:foreground ,cyberpunk-gray :background ,cyberpunk-pink-1))))
+   `(company-preview ((,class (:foreground ,cyberpunk-gray :background ,cyberpunk-black-2))))
+   `(company-preview-common ((,class (:foreground ,cyberpunk-gray :background ,cyberpunk-black-2))))
 
    ;; diff
    `(diff-added ((,class (:foreground ,cyberpunk-green))))
